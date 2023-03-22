@@ -16,6 +16,38 @@ color: red;
 
 body{color: azure;}
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  height: 50px;
+  border-bottom: 1px solid #000000;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #000000;
+}
 </style>
 
 <body>
@@ -23,6 +55,7 @@ body{color: azure;}
     <header>
 		<h1>deepgram</h1>
         <hr>
+        
 		<nav> <ul> 	<li><a href="home.html">Home</a></li>
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="#">Configurações</a></li></ul></nav>
@@ -45,6 +78,4 @@ body{color: azure;}
          
 </body>
 </html>
-
-
 
